@@ -1,0 +1,25 @@
+# Snyk (https://snyk.io) policy file
+
+# Ignores vulnerabilities until expiry date; change duration by modifying expiry date
+version: v1.25.0
+
+# Configuration
+patch: {}
+ignore: {}
+
+# Language settings
+language-settings:
+  javascript:
+    # Severity threshold (low|medium|high|critical)
+    fail-on: high
+    
+# Exclude paths from scanning
+exclude:
+  - dist/
+  - build/
+  - coverage/
+  - node_modules/
+  - '**/*.test.ts'
+  - '**/*.test.tsx'
+  - '**/*.spec.ts'
+  - '**/*.spec.tsx'
