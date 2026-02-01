@@ -3,10 +3,10 @@ import { render, screen, fireEvent } from '@testing-library/react';
 import { MemoryRouter } from 'react-router-dom';
 import Home from './Home';
 
-// Mock do useNavigate
+// Mock useNavigate
 const mockNavigate = vi.fn();
 
-// Mock do react-router-dom antes dos imports
+// Mock react-router-dom before imports
 vi.mock('react-router-dom', async () => {
   const actual = await vi.importActual('react-router-dom');
   return {

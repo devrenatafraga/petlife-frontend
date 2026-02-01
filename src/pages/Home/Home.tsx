@@ -3,8 +3,8 @@ import './Home.css';
 import logoImage from '../../assets/petlife-logo.png';
 
 /**
- * Landing page do PetLife
- * Apresenta o produto e direciona para onboarding
+ * PetLife landing page
+ * Presents the product and directs to onboarding
  */
 const Home = () => {
   const navigate = useNavigate();

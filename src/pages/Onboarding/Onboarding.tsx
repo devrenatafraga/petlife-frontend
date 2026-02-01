@@ -1,6 +1,6 @@
 /**
- * Placeholder para tela de Onboarding
- * Será implementada na Sub-fase 1.2
+ * Onboarding screen placeholder
+ * Will be implemented in Sub-phase 1.2
  */
 const Onboarding = () => {
   return (

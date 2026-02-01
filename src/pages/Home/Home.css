@@ -66,7 +66,7 @@
 }
 
 .home-cta {
-  background-color: #a56951;
+  background-color: #009bac;
   color: #fff;
   border: none;
   padding: 1rem 3rem;
@@ -75,13 +75,13 @@
   border-radius: 50px;
   cursor: pointer;
   transition: all 0.3s ease;
-  box-shadow: 0 4px 15px rgba(165, 105, 81, 0.3);
+  box-shadow: 0 4px 15px rgba(0, 155, 172, 0.3);
 }
 
 .home-cta:hover {
   transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(165, 105, 81, 0.4);
-  background-color: #8b5640;
+  box-shadow: 0 6px 20px rgba(0, 155, 172, 0.4);
+  background-color: #007a87;
 }
 
 .home-cta:active {
@@ -121,14 +121,12 @@
   font-size: 3rem;
   display: block;
   margin-bottom: 1rem;
-  filter: grayscale(100%) brightness(0) saturate(100%);
-  color: #009bac;
 }
 
 .feature-card h3 {
   font-size: 1.25rem;
   margin: 0 0 0.5rem 0;
-  color: #009bac;
+  color: #333;
   font-family: 'Fredoka', sans-serif;
 }
 
